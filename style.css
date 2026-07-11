@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Common Style */
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+/* Common style */
+.common-btn {
+
+    background-color: #1D4ED8;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+/* common-style */
+.outline-btn {
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+.common-btn:hover {
+    transform: translateY(-3px);
+}
+
+.outline-btn:hover {
+    transform: translateY(-3px);
+}
+
+/*mostly common style */
+.card {
+    width: 100%;
+
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+}
+
+/* Navigation */
+.nav-root-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 10px;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.nav-root-parent .nav-icon p {
+    color: #0D1B2A;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #575757;
+    gap: 20px
+}
+
+.nav-list ul li {
+    list-style: none;
+
+}
+
+/* Hero Section */
+.header-root-parent {
+    background-color: aqua;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+.header-content {
+    color: white;
+    text-align: center;
+
+}
+
+
+.header-content h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero-btn{
+    text-align: center;
+}
+
+/* Meet the Speakers */
+.card-root-parent h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000102;
+    padding: 30px;
+}
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    /* justify-items: center;  */
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.card-container img {
+    width: 100%;
+
+}
+
+.card-container .card {
+    width: 100%;
+    width: 400px;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+
+
+}
+
+.title {
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.card h3 {
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card p {
+    color: #575757;
+    font-size: 14px;
+
+}
+
+.card .title,
+.card h3,
+.card p {
+    padding: 0 20px;
+    margin-top: 5px;
+}
+
+
+/* Secure your spot */
+.secure-root-parent h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.secure-sub {
+    color: #575757;
+    text-align: center;
+    margin: 12px auto;
+}
+
+.secure-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.secure-card {
+    width: 300px;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    transition: 0.3s;
+    padding: 30px;
+
+}
+
+.pro-btn {
+    width: 100%;
+}
+
+.secure-card-container .card-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+
+.secure-card-container .price {
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+
+.secure-card-container .people {
+    font-size: 13px;
+    color: #888888;
+}
+
+.secure-card ul {
+    list-style: none;
+
+}
+
+.secure-card ul li {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 5px;
+}
+
+.card-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-name span {
+    color: #93C5FD;
+
+}
+
+.secure-card-pro {
+
+    background-color: #0D1B2A;
+}
+
+.secure-card-pro .card-name,
+.secure-card-pro .price,
+.secure-card-pro .people,
+.secure-card-pro ul li {
+    color: white;
+}
+
+hr {
+    margin: 10px auto;
+}
+
+/* Challenge part */
+.challenge-root-parent {
+    background-color: #ecf2f8;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.challenge-root-parent h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 35px;
+
+}
+
+.challenge-root-parent .challenge-sub {
+    text-align: center;
+    padding: 15px;
+}
+
+.challenge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.challenge-container .challenge-card {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+
+}
+
+.challenge-card h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.challenge-card p {
+    padding: 10px;
+    text-align: center;
+    color: #575757;
+}
+
+/* Footer Section */
+.footer-root-content {
+    background-color: #0D1B2A;
+    color: white;
+    padding: 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 50px;
+}
+
+.policy {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
